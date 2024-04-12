@@ -26,4 +26,3 @@ sliced_list = get_sliced_list(num_list)
 print(", ".join(format_numbers(even_squares)))
 print(", ".join(format_numbers(odd_cubes)))
 print(", ".join(format_numbers(sliced_list)))
-

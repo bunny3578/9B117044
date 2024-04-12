@@ -29,7 +29,7 @@ def calculate_average_score(student_data):
 
 
 def main():
-    with open('students.json', 'r', encoding='UTF-8') as f:
+    with open('./9b117044_02_00/students.json', 'r', encoding='UTF-8') as f:
         data = json.load(f)
 
     while True:

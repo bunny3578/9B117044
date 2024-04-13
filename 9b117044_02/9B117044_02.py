@@ -54,10 +54,10 @@ def main():
             course_name = input("請輸入要新增課程的名稱: ")
             course_score = input("請輸入要新增課程的分數: ")
             if course_name.strip() == '':
-                print("=>其它例外: 課程名稱不可空白.")
+                print("=>其它例外: 課程名稱或分數不可空白.")
                 continue
             if not course_score.strip().isdigit():
-                print("=>其它例外: 課程分數必須為非負數值。")
+                print("=>其它例外: 課程分數不可空白。")
                 continue
             try:
                 add_course(data, student_id, course_name, float(course_score))
